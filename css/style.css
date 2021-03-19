@@ -12,7 +12,7 @@
 .container{
     width:80%;
     margin: auto;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
 }
 .layover{
     height: 100%;
@@ -34,19 +34,19 @@
 }
 a:hover {
     color: hotpink;
-  }
+}
 /* /Header class */
 
 /* Main class */
 
     /* Photo.main class */
     .yoga_bg{
-    height: 700px;
-    background-image: url("../img/banner.jpg");
-    background-size:cover;
-    background-position: center;
-    border-radius: 15px;
-    position: relative;
+        height: 700px;
+        background-image: url("../img/banner.jpg");
+        background-size:cover;
+        background-position: center;
+        border-radius: 15px;
+        position: relative;
     }
     .lorem_yoga{
         position: absolute;
@@ -67,20 +67,20 @@ a:hover {
     }
     /* /Photo.main class */
 
-    /* Tiitle.main class */
+    /* Title.main class */
     .titlemain{
         position: relative;
         width: 100%;
         margin-top: 1.5rem;
     }
     .titlemain span{
-    position: absolute;
-    top: 47px;
-    font-size:17.5px;
-    font-weight: 400;
-    color: rgb(153, 153, 153);
+        position: absolute;
+        top: 47px;
+        font-size:17.5px;
+        font-weight: 400;
+        color: rgb(153, 153, 153);
     }
-    /* Tiitle.main class */
+    /* /Title.main class */
 
     /* Column.main class */
     .column_main{
@@ -106,10 +106,10 @@ a:hover {
         background-image: url(../img/img-3.jpg);
     }
     .contentmain{
-    height: 100%;
-    width: 50%;
-    padding: 10px 10px 10px 5px;
-    float: left;
+        height: 100%;
+        width: 50%;
+        padding: 10px 10px 10px 5px;
+        float: left;
     }
     .img_ctmain{
         width: 100%;
@@ -117,16 +117,15 @@ a:hover {
         background-image: url(../img/banner-2.jpg);
         background-size: cover;
         background-position: center;
-
     }
     .column_main p{
         color: grey;
 
     }
     h3{
-    font-weight: 400;
-    height: 50px;
-    margin-top: 20px;
+        font-weight: 400;
+        height: 50px;
+        margin-top: 20px;
     }
     /* /Column.main class */
 
