@@ -1,0 +1,105 @@
+/* Utility class */
+*{
+    box-sizing:border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.clearfix::after{
+    content: "";
+    clear:both;
+    display: table;
+}
+
+.container{
+    width:80%;
+    margin: auto;
+}
+/* /Utility class */
+
+/* Header class */
+.logo{
+    background-color: cadetblue;
+    height: 100px;
+}
+
+.nav_link{
+    height: 60px;
+    border: 2px solid red;
+    padding: 15px 0px 5px 0px;
+}
+
+.nav_link > a {
+    padding-right: 10px;
+    text-transform: uppercase;
+}
+/* /Header class */
+
+/* Main class */
+.yoga_bg{
+    height: 400px;
+    border: 2px solid rgb(8, 43, 119);
+    border-radius: 15px;
+    padding: 250px 0px 0px 30px;
+}
+
+.lorem_yoga{
+    width: 50%;
+    height: 60px;
+    border: 2px solid rgb(8, 43, 119);
+   
+}
+
+.titlemain{
+    height: 100px;
+    width: 100%;
+    margin-top: 1rem;
+    border: 2px solid rgb(6, 179, 29);
+    padding-top: 15px;
+
+}
+.leadership{
+    height:60px;
+    width: 30%;
+    border: 2px solid rgb(119, 8, 114);
+    padding-top: 20;
+}
+
+.column_main{
+    height: 500px;
+    width: 100%;
+    margin-top: 1rem;
+    border: 2px solid rgb(9, 29, 97);
+}
+
+.sidebar{
+    height: 100%;
+    width: 20%;
+    border: 2px solid rgb(255, 81, 12);
+    float: left;
+
+}
+.contentmain{
+    height: 100%;
+    width: 60%;
+    border: 2px solid rgb(106, 72, 230);
+    float: left;
+
+}
+/* /Main class */
+
+/* Footer class */
+.footer_info{
+    width: 100%;
+    height: 80px;
+    margin-top: 1rem;
+    border: 2px solid rgb(103, 126, 0);
+    padding-left: 45%;
+    padding-top: 20px;
+}
+.design{
+    width: 20%;
+    height:50%;
+    border: 2px solid cornflowerblue;
+}
+/* /Footer class */
