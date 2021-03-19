@@ -42,60 +42,60 @@ a:hover {
     position: relative;
     }
     .yoga_bg>.layover{
-    height: 100%;
-    width: 100%;
-    border-radius: 15px;
-    background-color: rgba(0, 0, 0, 0.2);
+        height: 100%;
+        width: 100%;
+        border-radius: 15px;
+        background-color: rgba(0, 0, 0, 0.3);
     }
     .lorem_yoga{
-    position: absolute;
-    top: 500px;
-    left: 50px;
-    width: 620px;
+        position: absolute;
+        top: 500px;
+        left: 50px;
+        width: 620px;
     }
     .lorem_yoga>span{
-    display: block;
-    color:white;
+        display: block;
+        color:white;
     }
     #span_title{
-    font-weight: 400;
-    font-size: 30px;
+        font-weight: 400;
+        font-size: 30px;
     }
     #span_description{
     font-weight: 300;
     }
     /* /Photo.main class */
 
+    /* Tiitle.main class */
+    .titlemain{
+        position: relative;
+        width: 100%;
+        margin-top: 1.5rem;
+    }
+    .titlemain span{
+    position: absolute;
+    top: 47px;
+    font-size:17.5px;
+    font-weight: 400;
+    color: rgb(153, 153, 153);
+    }
+    /* Tiitle.main class */
 
-.titlemain{
-    height: 100px;
-    width: 100%;
-    margin-top: 1rem;
-    border: 2px solid rgb(6, 179, 29);
-    padding-top: 15px;
+    /* Column.main class */
+    .column_main{
+        height: 500px;
+        width: 100%;
+        margin-top: 2.5rem;
+        border: 2px solid rgb(9, 29, 97);
+    }
 
-}
-.leadership{
-    height:60px;
-    width: 30%;
-    border: 2px solid rgb(119, 8, 114);
-    padding-top: 20;
-}
+    .sidebar{
+        height: 100%;
+        width: 20%;
+        border: 2px solid rgb(255, 81, 12);
+        float: left;
 
-.column_main{
-    height: 500px;
-    width: 100%;
-    margin-top: 1rem;
-    border: 2px solid rgb(9, 29, 97);
-}
-
-.sidebar{
-    height: 100%;
-    width: 20%;
-    border: 2px solid rgb(255, 81, 12);
-    float: left;
-
-}
+    }
 .contentmain{
     height: 100%;
     width: 60%;
