@@ -18,21 +18,21 @@
 /* /Utility class */
 
 /* Header class */
-.logo{
-    background-color: cadetblue;
-    height: 100px;
-}
 
 .nav_link{
-    height: 60px;
-    border: 2px solid red;
-    padding: 15px 0px 5px 0px;
+    padding: 40px 0px 40px 0px;
 }
 
 .nav_link > a {
-    padding-right: 10px;
+    padding-right: 40px;
     text-transform: uppercase;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: grey;
 }
+a:hover {
+    color: hotpink;
+  }
 /* /Header class */
 
 /* Main class */
