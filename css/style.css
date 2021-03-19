@@ -4,30 +4,26 @@
     margin: 0;
     padding: 0;
 }
-
 .clearfix::after{
     content: "";
     clear:both;
     display: table;
 }
-
 .container{
     width:80%;
     margin: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 /* /Utility class */
 
 /* Header class */
-
 .nav_link{
     padding: 40px 0px 40px 0px;
 }
-
 .nav_link > a {
-    padding-right: 40px;
+    padding-right: 20px;
     text-transform: uppercase;
     text-decoration: none;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: grey;
 }
 a:hover {
@@ -36,19 +32,40 @@ a:hover {
 /* /Header class */
 
 /* Main class */
-.yoga_bg{
-    height: 400px;
-    border: 2px solid rgb(8, 43, 119);
-    border-radius: 15px;
-    padding: 250px 0px 0px 30px;
-}
 
-.lorem_yoga{
-    width: 50%;
-    height: 60px;
-    border: 2px solid rgb(8, 43, 119);
-   
-}
+    /* Photo.main class */
+    .yoga_bg{
+    height: 700px;
+    background-image: url("../img/banner.jpg");
+    background-size:cover;
+    border-radius: 15px;
+    position: relative;
+    }
+    .yoga_bg>.layover{
+    height: 100%;
+    width: 100%;
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.2);
+    }
+    .lorem_yoga{
+    position: absolute;
+    top: 500px;
+    left: 50px;
+    width: 620px;
+    }
+    .lorem_yoga>span{
+    display: block;
+    color:white;
+    }
+    #span_title{
+    font-weight: 400;
+    font-size: 30px;
+    }
+    #span_description{
+    font-weight: 300;
+    }
+    /* /Photo.main class */
+
 
 .titlemain{
     height: 100px;
