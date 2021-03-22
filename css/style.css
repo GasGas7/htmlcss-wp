@@ -14,6 +14,7 @@
     margin: auto;
     font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
 }
+/* invece di creare un div layover si poteva usare :before e dare un display block cui si dava un background color e si dava un nero leggermente sfocato tramite il color tab */
 .layover{
     height: 100%;
     width: 100%;
@@ -100,9 +101,11 @@ a:hover {
         background-position: center;
     }
     .img_sbar.left{
+        /* si doveva usare object-fit:cover e adattare img in html a qualsiasi dimensione */
         background-image: url(../img/img-1.jpg);
     }
     .img_sbar.right{
+        /* si doveva usare object-fit:cover e adattare img in html a qualsiasi dimensione */
         background-image: url(../img/img-3.jpg);
     }
     .contentmain{
@@ -112,6 +115,7 @@ a:hover {
         float: left;
     }
     .img_ctmain{
+        /* si doveva usare object-fit:cover e adattare img in html a qualsiasi dimensione */
         width: 100%;
         height: 250px;
         background-image: url(../img/banner-2.jpg);
